@@ -89,3 +89,34 @@
         transform: rotate(0);
     }
 }
+/* es 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: sidetopwhite 1s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes sidetopwhite {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(190%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: sidebottomwhite 1s linear;
+    animation-iteration-count: infinite;
+}
+@keyframes sidebottomwhite {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
