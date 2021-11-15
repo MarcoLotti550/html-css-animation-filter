@@ -36,3 +36,22 @@
 .ex-5-square:active{
     transform: scale(0.5);
 }
+/* es 6 */
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* es 7 */
+.ex-7-img{
+    transition: 1s;
+}
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+/* es 8 */
+.ex-8-img{
+    transition: 1s;
+}
+.ex-8-img:hover{
+    transform: scale(0.8);
+    border-radius: 20px;
+}
